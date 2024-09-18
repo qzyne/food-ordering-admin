@@ -1,0 +1,178 @@
+main {
+    margin: auto;
+    padding: auto;
+    width: 100vw;
+    min-height: 100vh;
+}
+.main-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 30px; */
+  }
+
+  .content-top-title {
+    width: fit-content;
+    font-size: calc(30px + 0.390625vw);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+  }
+
+  .welcome {
+    background-color: #FEBC0C;
+    color: white;
+    display: flex;
+    height: 65px;
+    width: 580px;
+    margin-left: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .welcome-name {
+    margin-top: -40px;
+    display: flex;
+    position: absolute;
+    margin-left: 12%;
+    /* margin-top: 23px; */
+    font-size: calc(18px + 0.190625vw);
+  }
+
+  .welcome-box {
+    margin-left: 2px;
+  }
+
+  .dashboardImg {
+    margin: -4% 5% -4% 63%;
+    width:  28%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .accountImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+    margin-top: -12px;
+    cursor: pointer;
+  }
+
+  .account-img-setting {
+    width: 70px;
+    height: 70px;
+    border-radius: 180px;
+    margin-top: 15px;
+    cursor: pointer;
+    /* margin-bottom: 2px; */
+  }
+
+  ul, li{
+    margin-left: -9px;
+    margin-top: 18px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+ .LinkSetting{
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .LinkSetting:hover {
+    color: white
+  }
+
+.iconSetting {
+    margin-right: 8px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    color: #E34444;
+}
+
+/* .iconSetting1 {
+  margin-right: 8px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  color: #E34444;
+} */
+  .setting-box {
+    border: 3px solid #56423D;
+    border-radius: 18px;
+    margin: 0 auto;
+    width: 220px;
+    height: 200px;
+    background-color: #FEBC0C;
+}
+
+  @media screen and (max-width: 1230px) {
+    .setting-box {
+        margin-top: 3px;
+        margin-left: -10px;
+        width: 220px;
+        height: 200px;
+
+    }
+    .welcome-name {
+        margin-top: -36px;
+        display: flex;
+    }
+    .dashboardImg {
+        margin-top: -60px;
+        /* margin-bottom: 10px; */
+        /* margin: -6% 5% 5% 75%; */
+        width: calc(120px + 0.190625vw);
+        height: calc(70px + 0.390625vw);
+        position: absolute;
+      }
+      .welcome-name {
+        font-size: calc(17px + 0.190625vw);
+      }
+    .welcome {
+        display: block;
+        margin: 25px;
+        width: 93%;
+        margin: 25px;
+        position: relative;
+      }
+      .main-content-top {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+        position: relative;
+      }
+  }
+
+  @media screen and (max-width: 700px) {
+
+      .accountImg {
+        margin-top:-7px;
+        width: calc(40px + 0.190625vw);
+        height: calc(40px + 0.190625vw);
+        
+      }
+      .dashboardImg {
+        display: none;
+      }
+
+      .welcome-name {
+        /* margin-top: 23px; */
+        margin-left: 50px;
+        font-size: calc(13px + 0.190625vw);
+      }
+
+      .main-content-top {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+        position: relative;
+      }
+
+  }

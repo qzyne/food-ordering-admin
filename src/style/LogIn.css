@@ -1,0 +1,73 @@
+main{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.LogInbg {
+    width: 50vw;
+    height: 100%
+}
+.LogInContainer {
+    
+    background-color: #D52B1E;
+}
+
+.loginBox {
+    width: 50vw;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 993px) {
+    .loginBox {
+        width: 100vw;
+    }
+}
+.phoneNumberBox, .passwordBox {
+    width: 380px;
+}
+
+.phoneNumber {
+    margin-left: -295px;
+}
+
+.password {
+    margin-left: -295px;
+}
+
+.iconEye {
+    margin-top: -40px;
+    margin-left: 340px;
+    cursor: pointer;
+}
+
+.forgotPassword {
+    color: #56423D;
+    margin-left: -230px;
+}
+
+.buttonLogIn {
+    border: 1px solid #FEBC0C;
+    background-color: #FEBC0C;
+    border-radius: 180px;
+}
+
+.registerNow {
+    color: #56423D;
+    cursor: pointer;
+}
+
+.registerNow a {
+    text-decoration: none;
+    color:#56423D;
+}
+
+.registerNow a:hover{
+    color: #8a6c64;
+}
+

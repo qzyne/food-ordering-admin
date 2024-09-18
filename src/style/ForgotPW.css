@@ -1,0 +1,67 @@
+
+.FG-box {
+    width: 100px;
+    position: absolute;
+}
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.logoimg {
+    width: 5%; 
+    height: 5%;
+    margin-top: -12px;
+}
+
+.titleFG {
+    font-size: 2em;
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 870px) {
+    .logoimg {
+        width: 10%; 
+        height: 10%;
+    }
+}
+
+.confirmBox {
+    width: 320px;
+    color: #6A6666;
+}
+
+.buttonRetrieval {
+    width: 320px;
+    border-radius: 180px;
+    background-color: #FEBC0C;
+    border: 1px solid #FEBC0C;
+
+}    
+
+.comeback {
+    text-decoration: none;
+    color: black;
+}
+
+.comeback:hover {
+    color: black;
+}
+
+.newPasstitle {
+    margin-left: -120px;
+}
+
+.validationCheck {
+    width:fit-content
+    /* margin-left: 600px; */
+}
+
+.icon-false {
+    color: red;
+}
+
+.icon-true {
+    color: #44E367;
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-decoration: none;
+  font-family: 'Inter';
+}
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+

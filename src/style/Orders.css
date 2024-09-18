@@ -1,0 +1,23 @@
+.main-content {
+    /* background-color: #FFF0F0; */
+      flex: 1;
+      padding: 16px 28px 8px 28px;
+      /* border-bottom: 1px solid #56423D; */
+  
+}
+
+@media screen and (max-width: 1400px) {
+    .main-content {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+  }
+  
+
+  @media screen and (max-width: 1200px) {
+    .main-content {
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+  }

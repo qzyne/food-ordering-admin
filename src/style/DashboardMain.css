@@ -1,0 +1,53 @@
+main {
+    margin: auto;
+    padding: auto;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.iconCard {
+    width: 50px;
+    height: 50px;
+    color: #FFEAEA;
+}
+ .revenue {
+    background-color: #C89B90;
+ }
+
+ .title-name {
+    font-size: 0.9em;
+    color: #FFEAEA;
+ }
+
+
+ .inventory, .customers, .orders {
+    background-color: #56423D;
+ }
+
+.cardBox {
+    border-radius: 20px;
+ }
+
+ .title {
+    color: #56423D; 
+ }
+
+ .pending {
+    background-color: #FDFED0;
+    color: #B2980E;
+ }
+
+ .delivered {
+    background-color: #DAFCE2;
+    color: #3EC95C;
+ }
+
+ .cancel {
+    background-color: #FFE1E1;
+    color: #E34444;
+ }
+
+ .isdelivering {
+    background-color: #CEF0FE;
+    color: #20B5F4;
+ }

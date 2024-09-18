@@ -1,0 +1,10 @@
+.notFound {
+    height: 100vh;
+    margin-top:20px;
+    width: 100vw;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
